@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -58,7 +59,13 @@ class ResultActivity : AppCompatActivity() {
                 R.string.color_code_result_message,
                 colorCode?.uppercase()
             ) //%s in xml is for formatting
+        }//--intent
+
+        val myBtn = findViewById<Button>(R.id.button_back)
+        myBtn.setOnClickListener {
+            finish()
         }
-    }
+
+    }//--onCreate
 
 }

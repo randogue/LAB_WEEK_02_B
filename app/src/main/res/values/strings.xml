@@ -8,4 +8,5 @@
     <string name="color_code_input_invalid">Color code is invalid!</string>
     <string name="asdf">Enter color code</string>
     <string name="submit_button">SUBMIT</string>
+    <string name="back_button">BACK</string>
 </resources>
